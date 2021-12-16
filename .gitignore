@@ -1,0 +1,8 @@
+# local .terraform dir
+.terraform/*
+
+# tf state file
+*.tfstate
+*.tfstate.*
+
+# tfvars may contain sens data so we can even ignore
